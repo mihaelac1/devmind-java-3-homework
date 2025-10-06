@@ -4,6 +4,7 @@ import com.devmind.springapp.abs.IAnimal;
 
 public class Cat implements IAnimal {
 
+    public static final String MY_NAME_IS = "My name is: ";
     private String animalName;
 
     public Cat(String animalName) {
@@ -16,7 +17,7 @@ public class Cat implements IAnimal {
     }
 
     public String getAnimalName() {
-        return animalName;
+        return MY_NAME_IS + animalName;
     }
 
     public void setAnimalName(String animalName) {

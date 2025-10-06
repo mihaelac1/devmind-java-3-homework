@@ -21,7 +21,7 @@ public class Main {
 
             //if is an instance of a Cat get also the name
             if (animal instanceof Cat) {
-                System.out.println(("My name is " + ((Cat) animal).getAnimalName()));
+                System.out.println((((Cat) animal).getAnimalName()));
             }
         }
 
